@@ -1,6 +1,13 @@
 # Changelog
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+
+## [git] - 2020-03-15
+### Changed
+- Split the app into a separate project (it was formerly in
+  the webapp directory of EnlivenMinetest).
+
 
 ## [git] - 2019-03-19
 ### Added

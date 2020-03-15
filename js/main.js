@@ -1,3 +1,15 @@
+/**
+ *
+ * @license
+ * Copyright (C) 2020 Jake Gustafson
+ *
+ * This is part of node-enliven-minetest, a webapp for managing
+ * Minetest.
+ *
+ * This code and any other files where not specified otherwise are
+ * subject to the license (See license.txt).
+*/
+
 var tzElement = document.getElementById("tzArea");
 var tz_offset = tzElement.innerHTML;
 var dateElement = document.getElementById("dateArea");

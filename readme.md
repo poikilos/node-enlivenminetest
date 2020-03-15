@@ -1,4 +1,4 @@
-# EnlivenMinetest webapp
+# node-enliven-minetest
 
 Manage minetestserver using a convenient web interface.
 
