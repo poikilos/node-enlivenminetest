@@ -1,5 +1,5 @@
 /**
- *
+ * @module node-enliven-minetest
  * @license
  * Copyright (C) 2020 Jake Gustafson
  *

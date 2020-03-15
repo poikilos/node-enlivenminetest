@@ -2,7 +2,8 @@
 
 Manage minetestserver using a convenient web interface.
 
-Authentication for players via the mt auth db is planned!
+Authentication for players via the mt auth db is planned
+(see status at issue #2)!
 
 Before using this webapp, make sure you have installed minetest to
 $HOME/minetest with the RUN_IN_PLACE option (this option is true by
