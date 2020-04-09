@@ -5,10 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [git] - 2020-04-08
 ### Changed
-- Upgrade all packages:
-  `node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save`
-  as per
-  <https://medium.com/@jh3y/how-to-update-all-npm-packages-in-your-project-at-once-17a8981860ea>
+- Upgrade all packages as per
+  <https://medium.com/@jh3y/how-to-update-all-npm-packages-in-your-project-at-once-17a8981860ea>:
+  - add wipe-dependencies.js (trivial script; added later since forgot,
+    then re-ran commands below)
+  - `node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save`
 
 
 ## [git] - 2020-03-15
