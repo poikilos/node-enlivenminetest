@@ -12,7 +12,8 @@
 if [ -f "`command -v screen`" ]; then
     screen -S enliven-node node server.js
 else
-    nohup node server.js &
+    node server.js &
+    NEM_PID=$!
     echo "node server.js is running in background. terminate as follows:"
-    echo "  killall node"
+    echo "  kill $NEM_PID"
 fi
