@@ -15,5 +15,9 @@ fi
 if [ "@$FOUND_ESLINT_INIT" != "@true" ]; then
     node ./node_modules/eslint/bin/eslint.js --init
 fi
-#find -iname "*.js" -exec node ./node_modules/eslint/bin/eslint.js --ignore-pattern '!node_modules/*' {} \;
+#node ./node_modules/eslint/bin/eslint.js . --ignore-pattern '!node_modules/*' {} \;
+#^ still scans node_modules--Don't do that.
+#  See [warning File ignored by default. Use
+#  "--ignore-pattern '!node_modules/*'" to
+#   override](https://github.com/ember-cli/ember-cli-eslint/issues/63).
 find -iname "*.js" -not -path "./node_modules/*" -exec node ./node_modules/eslint/bin/eslint.js --ignore-pattern '!node_modules/*' {} \;
